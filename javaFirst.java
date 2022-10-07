@@ -17,5 +17,6 @@ int x=10,y=11;
     }
     else{
       System.out.println("wait for the right age");
-}
+    }
+    }
 }
