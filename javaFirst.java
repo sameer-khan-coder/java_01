@@ -12,7 +12,7 @@ int x=10,y=11;
       System.out.println("false");
     }
     int ageOfBoy=36,ageOfGirl=25;
-    if(!(ageOfBoy>=21)&&(ageOfGirl>=18)){
+    if((ageOfBoy>=21)&&(ageOfGirl>=18)){
       System.out.println("marry");
     }
     else{
