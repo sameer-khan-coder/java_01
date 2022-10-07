@@ -4,12 +4,18 @@ public class sameersameer{
 
   public static void main(String[] args) {
 
-  int val=9/2;
-   double sk=10d/6d;
-   int marker=512;
-  double percentage =marker*0.46f;
-  System.out.println(percentage);  
-  char var1='sdd';
-  System.out.println(var1); 
+int x=10,y=11;
+    if(!(x<y)||(x==y)){
+      System.out.println("condition is true");
+    }
+    else{
+      System.out.println("false");
+    }
+    int ageOfBoy=36,ageOfGirl=25;
+    if(!(ageOfBoy>=21)&&(ageOfGirl>=18)){
+      System.out.println("marry");
+    }
+    else{
+      System.out.println("wait for the right age");
 }
 }
